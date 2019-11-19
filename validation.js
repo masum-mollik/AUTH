@@ -33,6 +33,6 @@ const loginValidation = (data) => {
 	return Joi.validate(data, schema);
 };
 
-module.exports.loValidation = loginValidation;
+module.exports.loginValidation = loginValidation;
 
 module.exports.registerValidation = registerValidation;

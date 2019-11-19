@@ -18,7 +18,7 @@ mongoose.connect(
 //Middleware
 app.use(express.json());
 
-//Route Middlewares
+//Route middleware
 app.use("/api/user", authRoute);
 app.use("/api/posts", postRoute);
 
